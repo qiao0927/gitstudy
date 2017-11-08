@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>今天天气不错</title>
+  <script>
+    //转换为布尔类型
+    //1 强制转换
+    //Boolean(数据)
+//    console.log(Boolean("1301"));//true
+//    console.log(Boolean(""));//false
+//    console.log(Boolean(200));//true
+//    console.log(Boolean(0));//false
+//    console.log(Boolean(NaN));//false
+//    console.log(Boolean(null));//false
+//    console.log(Boolean(undefined));//false
+//    console.log(Boolean(false));//false
+    
+    //转换为布尔类型，只需要记忆转换结果为false的值即可
+    // false "" 0 NaN null undefined
+    //除了上面6个值以外，其他数据的转换结果均为true。
+    
+    //2 隐式转换 （推荐使用）
+    // !!数据
+    console.log(!!"abc");//true
+    console.log(!!201);//true
+    console.log(!!NaN);//false
+    console.log(!!null);//false
+    console.log(!!0);//false
+    console.log(!!undefined);//false
+    console.log(!!"");//false
+    console.log(!!false);//false
+
+
+  </script>
+</head>
+<body>
+
+
+</body>
+</html>

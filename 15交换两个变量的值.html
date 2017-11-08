@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>今天天气不错</title>
+  <script>
+    //将两个变量保存的值进行交换
+    
+    //通用方式：无论数据是什么类型均可使用
+    //    var value1 = "我是第一个数据";
+    //    var value2 = "我是第二个数据";
+    //
+    //    //借助第三个中转的变量
+    //    var temp = value1;
+    //    value1 = value2;
+    //    value2 = temp;
+    //
+    //    //console.log(value1);
+    //    //console.log(value2);
+    //    console.log(value1,value2);
+    
+    
+    //将两个保存数值类型数据的变量进行交换(仅仅适用于数值)
+    var num1 = 100, num2 = 200;
+    
+    //利用求和的方式
+    num1 = num1 + num2;//num1为两个值的和300
+    num2 = num1 - num2;//使用和，减去自身，得到num1的原值100
+    num1 = num1 - num2;
+    
+    console.log(num1, num2);
+  
+  
+  </script>
+</head>
+<body>
+
+
+</body>
+</html>

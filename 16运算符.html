@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>今天天气不错</title>
+  <script>
+    //运算符(操作符)
+    
+    //1 算数运算符： + - * / % (二元操作)
+    //先*/% 后 + -
+    //console.log(1 + 1);
+    //console.log(26 - 5);
+    //console.log(340 / 2);
+    //console.log(50 * 3);
+    //console.log(10 % 3);
+    
+    //2 一元运算符：
+    // 一元：参与运算的操作数只有一个
+    // 2.1 一元+操作： +"100"
+    
+    // 2.2 ++ 和 --
+    //    ++表示一个值自身扩大1   --表示一个值自身减少1
+    // 下面为基本的使用情况，非常简单。
+    //var num = 100;
+    //num--;
+    //console.log(num);
+    
+    // 需要注意的使用方式：（略难）
+    // 当++或--操作与其他运算同时执行时，根据书写的位置不同，用不同的效果。
+    //var num = 100;
+    //当++前置与操作数，表示先进行自增1（当前的取值为自增后的值）
+    //console.log(++num + num);
+    
+    //当++后置于操作数，表示后自增1（当前的取值为自增前的值）
+    //console.log(num++ + num);
+    
+    //总结，当++与其他运算结合使用时，无论前置还是后置，只能影响当前位置的取值情况。
+    
+    //var num = 100;
+    //console.log(++num + num++ + num);//304
+    
+    
+    //3 比較运算符：均返回布尔值
+    // > < >= <=
+    //    console.log(2 > 1);//true
+    //    console.log(2 < 1);//false
+    //    console.log(2 <= 1);//false
+    //    console.log(2 >= 1);//true
+    
+    // 3.1 相等运算符
+    // == != 和 === !==
+    // == 判断是否相等:相等比較值
+    //console.log(100 == 100);//true
+    
+    //字符串和数值进行相等比較时，字符串会转换为数值类型然后参与比較
+    //console.log("100" == 100);//true
+    //console.log("100a" == 100);//false
+    
+    //!= 判断是否不相等
+    //console.log(100 != 200);
+    
+    // === 判断是否全等：全等比較值和类型
+    // 全等比较时不会发生隐式转换的操作（推荐使用，严谨）
+    //console.log(100 === 100);//true
+    //console.log("100" === 100);//false
+    //console.log(true === true);
+    
+    // !== 判断是否不全等
+    //console.log("100" !== 100);//true
+    
+    //特殊的比較结果：
+    //console.log(null == undefined);//相等比較时，null和undefined为相等
+    
+    //NaN与任何值进行比較操作均返回false
+    //console.log(NaN > 1);//false
+    //console.log(NaN <= 1);//false
+    //console.log(NaN == NaN);//false
+    //console.log(NaN === NaN);//false
+    
+    //由于NaN与任何的值比較均返回false，导致无法检测到这个值
+    //js单独给NaN提供的一种检测方式
+    //isNaN(数据); //检测数据是否不是数（是数返回false）
+    //console.log(isNaN(NaN));
+  
+  </script>
+</head>
+<body>
+
+
+</body>
+</html>

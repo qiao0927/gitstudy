@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>今天天气不错</title>
+  <script>
+    //转换为数值类型
+    
+    //如果进行数值转换时，出现了NaN表示转换失败
+    
+    //1 强制转换
+    //Number(数据)
+    //console.log(Number("100"));//100
+    //console.log(Number("100abc"));//NaN
+    //console.log(Number(true));//1
+    //console.log(Number(false));//0
+    //console.log(Number(null));//0
+    //console.log(Number(undefined));//NaN
+    
+    //parseInt(数据)
+    //console.log(parseInt("100"));//100
+    //console.log(parseInt("100a1b1c1"));//100  对字符串的转换规则，从左往右检索，找到不是数就停止
+    //console.log(parseInt("100.1"));//100
+    //console.log(parseInt("a100"));//NaN
+    
+    //console.log(parseInt(true));//NaN
+    //console.log(parseInt(false));//NaN
+    //console.log(parseInt(null));//NaN
+    //console.log(parseInt(undefined));//NaN
+    
+    //parseFloat(数据)
+    //与parseInt的区别在于可以取出小数的部分
+    //console.log(parseFloat("100"));//100
+    //console.log(parseFloat("100a"));//100
+    //console.log(parseFloat("100.12a"));//100.12
+    //console.log(parseFloat("a100.12a"));//NaN
+    
+    //2 隐式转换
+    //-*/%
+    //console.log("100" - 0);
+    //console.log("100" * 1);
+    //console.log("100" / 1);
+    //console.log("100" % Infinity);
+    
+    //+ 如果使用加操作进行数值的转换，需要将+前置于数据， 前面不能有其他的数据，否则会转换为字符串
+    //console.log(+"100");
+//    console.log(100 );
+
+  </script>
+</head>
+<body>
+
+
+</body>
+</html>
